@@ -3,7 +3,7 @@ import os
 import sys
 
 
-with open(os.path.join(sys.path[0], "json/forbes_billionaires_2016.json")) as json_file:
+with open(os.path.join(sys.path[0], "forbes_billionaires_2016.json")) as json_file:
 
     data = json.loads(json_file.read())
     # print (data)
